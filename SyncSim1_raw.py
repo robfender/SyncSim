@@ -30,6 +30,7 @@ print ('|____/ |_| |_| \_|\____|____/___|_|  |_| ___ raw')
 print ('Version 1.0')
 print ('Rob Fender 2020')
 
+print ('Git desktop test')
 
 import matplotlib.pyplot as plt
 
