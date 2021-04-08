@@ -7,7 +7,7 @@
 p=2.2 # the power law index of the electron distribution
 Ee=(3.0/7.0)*2.0e40 #1e42 # total energy in electrons
 Eb=(4/3)*Ee # total energy in magnetic fields, ratio to Ee is (4/3) in equipartition
-gamma10 = 1e1 # initial Lorentz factor of lowest energy electrons 
+gamma10 = 1e2 # initial Lorentz factor of lowest energy electrons 
 gamma20= 1e7 # initial Lorentz factor of highest energy electrons
 r0= 10 * 0.08 * 2.99e10 #estimated from given (delta)T and v~0.1c # initial radius of blob when electron accelerated (e.g. 3e8 cm = 100 Schwarzschild radii for 10 M_sun BH)
 vc= 0.1 #0.15 # expansion speed of blob in units of c (expansion here means expansion, not speed away from BH)
@@ -30,7 +30,7 @@ print ('|____/ |_| |_| \_|\____|____/___|_|  |_| ___ raw')
 print ('Version 1.0')
 print ('Rob Fender 2020')
 
-print ('Git desktop test')
+print ('Git desktop test 2')
 
 import matplotlib.pyplot as plt
 
